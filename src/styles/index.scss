@@ -41,6 +41,7 @@ textarea:focus, input:focus{
     width: 20rem;
     height: 3rem;
     padding-left: 1rem;
+    margin-left: 2.5rem;
 }
 
 .placeHolderStyle{
@@ -56,20 +57,25 @@ textarea:focus, input:focus{
     display: flex;
    justify-self: end;
    color: rgb(187, 187, 187);
+   
 }
 
 .buttonStyle:hover{
     color: black;
     transition: all .3s;
 }
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+select, input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.checkBoxStyle{
+    color: rgb(118, 118, 118);
+}
 
-*/
+.checkBoxStyle:hover{
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+}
+
